@@ -51,7 +51,6 @@ digital_insurance_mngmntSystem/
 ├── backend/     # Spring Boot application
 │
 ├── frontend/    # Vue 3 + TypeScript frontend
-│
 ```
 
 ---
@@ -124,23 +123,6 @@ Refer to [Project Documentation](./documentation.md) for full endpoint definitio
 
 ---
 
-## 📦 Deployment
-
-To deploy in production:
-
-```bash
-# Build Docker images
-docker build -t your-repo/insurance-backend ./backend
-docker build -t your-repo/insurance-frontend ./frontend
-
-# Push to Docker Hub / ECR / GCR
-docker push your-repo/insurance-backend
-docker push your-repo/insurance-frontend
-
-# Deploy via Kubernetes / Docker Swarm / ECS
-```
-
----
 
 ## 🔮 Future Enhancements
 
